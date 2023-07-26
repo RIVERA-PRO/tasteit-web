@@ -175,6 +175,9 @@ nav{
 
 }
 
+.scrolled  .nav_items{
+    background-color: var(--blanco);
+}
 .scrolled a{
     color: #000;
 }
@@ -187,3 +190,25 @@ nav{
     color: #000;
     
 }
+.scrolled   .nav_toggle span{
+    background-color: #000;
+     
+ }
+ 
+ .scrolled   .cerrar-nav{
+    color: #000;
+ 
+}
+
+
+.scrolled .logo-nav a{
+    
+    color: var(--color1);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.scrolled  .logo-nav span{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
