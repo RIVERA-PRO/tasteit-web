@@ -42,7 +42,7 @@ body{
 
 
 
-.heroText,.mainText ,.formReserva,.bgText{
+.heroText,.mainText ,.formReserva,.bgText,.cardMenu{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;

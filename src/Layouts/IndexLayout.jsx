@@ -6,6 +6,7 @@ import Hero from '../Components/Hero/Hero'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Main from '../Components/Main/Main'
 import BgTile from '../Components/BgTile/BgTile'
+import Menu from '../Components/Menu/Menu'
 export default function IndexLayout() {
     return (
         <div>
@@ -13,6 +14,7 @@ export default function IndexLayout() {
             <Hero />
             <Main />
             <BgTile />
+            <Menu />
             <Footer />
             <Developer />
             <ButonScroll />
