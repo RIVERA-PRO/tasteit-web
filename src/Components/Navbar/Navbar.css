@@ -162,3 +162,28 @@ nav{
 }
 
 
+.scrolled {
+    position: fixed;
+}
+
+.scrolled nav{
+ background-color: var(--blanco);
+ margin: 0;
+ border-radius: 0;
+ height: 8vh;
+ padding: 0px 13%;
+
+}
+
+.scrolled a{
+    color: #000;
+}
+
+.scrolled a:hover{
+    color: var(--color1);
+}
+
+.scrolled .logo span{
+    color: #000;
+    
+}
