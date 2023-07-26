@@ -1,0 +1,117 @@
+.FooterContain{
+    background-color: var(--bg2-color);
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 4rem;
+    place-content: center;
+    padding: 100px 10%;
+    transition: all 0.2s linear;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerText a{
+    text-decoration: none;
+    color: var(--blanco);
+  
+}
+.footerText h3{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 18px;
+}
+.logo a{
+    color: var(--color1);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .logo span{
+      color: var(--blanco);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.footerText p{
+    font-size: 13px;
+    color: var(--text-color2);
+
+}
+.redes-sociales-footer {
+    margin-top: 20px;
+}
+.redes-sociales-footer a{
+  color: var(--blanco);
+  background-color: var(--color1);
+
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+ margin-right: 30px;
+}
+.horarios {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+   
+}
+.horarios p{
+    color: var(--blanco);
+    font-size: 13px;
+}
+.horarios span{
+    font-size: 13px;
+    color: var(--text-color2);
+}
+
+.INSTAGRAM{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+
+    place-content: center;
+    gap: 10px;
+
+}
+.INSTAGRAM img{
+    object-fit: cover;
+    width: 70px;
+    height: 90px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-footer input{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: #80808031;;
+    border: none;
+}
+
+.form-footer button{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: var(--color1);
+    border: none;
+    color: var(--blanco);
+    font-size: 15px;
+    cursor: pointer;
+}
