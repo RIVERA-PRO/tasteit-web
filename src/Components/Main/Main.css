@@ -1,0 +1,66 @@
+.mainContain{
+   
+    display: none;
+   
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(../../img/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 40rem;
+    padding-top:4rem;
+}
+
+.mainText h2{
+    font-size: 36px;
+    width: 70%;
+    color: var(--text-color2);
+}
+
+.mainText p{
+    font-size: 15px;
+    width: 50%;
+    color: var(--text-color2);
+    line-height: 1.7; 
+}
+
+.scrolledMain{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: var(--blanco);
+    place-content: center;
+    padding: 0px 13%;
+    transition: all 0.2s linear;
+ }
+@media (max-width: 1024px) {
+    .mainContain{
+       
+        padding: 0px 0%;
+
+    }
+    .mainText{
+        width: 100%;
+    }
+
+    .mainText h2{
+        font-size: 30px;
+        width: 100%;
+       
+    }
+    
+    .mainText p{
+    
+        width: 100%;
+       
+    }
+}

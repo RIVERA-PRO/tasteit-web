@@ -42,7 +42,7 @@ body{
 
 
 
-.heroText {
+.heroText,.mainText ,.formReserva{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
