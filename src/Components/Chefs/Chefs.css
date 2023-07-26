@@ -1,0 +1,75 @@
+.cardsChefs{
+  display: none;
+}
+
+.scrolledCard{
+display: flex;
+margin: auto;
+width: 100%;
+overflow: hidden;
+display: grid;
+grid-auto-rows: max-content;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 4rem;
+place-content: center;
+padding: 100px 10%;
+transition: all 0.2s linear;
+
+}
+
+.cardChef img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cardChef{
+    background-color: var(--blanco);
+    box-shadow: 0 3px 10px #1a1e2516;
+    overflow: hidden;
+    transition: all 1s linear;
+}
+.cardTexts{
+    padding: 10px;
+}
+.cardTexts p{
+    color: var(--text-color2);
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.cardTexts h5{
+    font-size: 17px;
+}
+.cardTexts span{
+    font-size: 13px;
+    color: var(--color1);
+}
+
+.cardChef:hover{
+    box-shadow: 0 3px 50px #1a1e2598;
+    transition: all 0.4s linear;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.ChefsContain h2{
+    font-size: 40px ;
+    text-align: center;
+    padding-top: 60px;
+
+}
+.ChefsContain{
+    background-color: var(--blanco);
+}
+
+@media (max-width: 1024px) {
+    .ChefsContain h2{
+        font-size: 30px ;
+        text-align: center;
+        padding-top: 60px;
+    
+    }
+}
