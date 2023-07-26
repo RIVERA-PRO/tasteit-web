@@ -42,12 +42,12 @@ body{
 
 
 
-.heroText,.mainText ,.formReserva,.bgText,.cardMenu{
+.heroText,.mainText ,.formReserva,.bgText,.cardMenu,.footerText{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-.card-scroll, nav, .FooterContain{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+.card-scroll, nav,.card-scroll2{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
 #up{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 1s ease-in-out forwards;

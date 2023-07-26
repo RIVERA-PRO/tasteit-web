@@ -1,0 +1,103 @@
+
+.TestimoniosConatin{
+   background-image: url(../../img//bg_5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    place-content: center;
+}
+
+.card-scroll2 {
+    display: none;
+  
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--blanco)!important; ; /* Cambia el color a blanco */
+}
+/* Estilos para la paginación */
+.swiper-pagination-bullet {
+    background-color: var(--blanco)!important; /* Cambia el color del fondo a blanco */
+    opacity: 0.5; /* Cambia la opacidad de los puntos de la paginación */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: var(--blanco)!important; /* Cambia el color del punto activo a blanco */
+    opacity: 1; /* Cambia la opacidad del punto activo */
+  }
+#swiper_container2 {
+    height: 60vh;
+    width: 70%;
+    transition: all 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    place-content: center;
+    flex-direction: column;
+   
+  }
+  #swiper_container2 img{
+     width: 8rem;
+     height: 8rem;
+     object-fit: cover;
+     border-radius:100%;
+     transition: all 0.25s;
+}
+#SwiperSlide2{
+    width: 67rem !important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    align-content: center!important;
+    transition: all 0.25s;
+  }
+  #swiper_container2 a{
+   text-decoration: none;
+   color: var(--blanco);
+  }
+
+  @media (max-width: 900px) {
+    
+ #swiper_container2 {
+   
+    width: 100%;
+ 
+  }
+  #SwiperSlide2{
+    width: 24rem !important;
+  }
+
+  #swiper_container2 img{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+.card-scroll2 {
+
+   padding: 0px 10%;
+  
+}
+  }
+
+.scrolled3{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    gap: 2rem;
+   padding: 0px 20%;
+   text-align: center;
+   color: var(--blanco);
+  }

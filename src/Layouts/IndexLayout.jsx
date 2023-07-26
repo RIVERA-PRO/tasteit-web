@@ -7,6 +7,7 @@ import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Main from '../Components/Main/Main'
 import BgTile from '../Components/BgTile/BgTile'
 import Menu from '../Components/Menu/Menu'
+import Testimonios from '../Components/Testimonios/Testimonios'
 export default function IndexLayout() {
     return (
         <div>
@@ -15,6 +16,7 @@ export default function IndexLayout() {
             <Main />
             <BgTile />
             <Menu />
+            <Testimonios />
             <Footer />
             <Developer />
             <ButonScroll />

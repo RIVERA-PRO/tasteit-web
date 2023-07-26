@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Footer.css'
 import { Link as Anchor, useNavigate, useLocation } from "react-router-dom";
 import img1 from '../../img/breakfast-1.jpg'
@@ -8,10 +8,28 @@ import img4 from '../../img/breakfast-4.jpg'
 import img5 from '../../img/breakfast-5.jpg'
 import img6 from '../../img/breakfast-6.jpg'
 export default function Footer() {
+
+    const [scrolled, setScrolled] = useState(false);
+
+    // Cambio de color en navbar al hacer scroll
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 2600) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <div className='FooterContain'>
 
-            <div className='footerText'>
+            <div className={scrolled ? "footerText scrolledFooter " : "footerText"}>
                 <div className='logo'>
                     <Anchor to={`/`} >Tease. <span>IT</span></Anchor>
                 </div>
@@ -25,7 +43,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='footerText'>
+            <div className={scrolled ? "footerText scrolledFooter " : "footerText"}>
                 <h3>HORARIOS DE APERTURA</h3>
 
                 <div className='horarios'>
@@ -58,7 +76,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='footerText'>
+            <div className={scrolled ? "footerText scrolledFooter " : "footerText"}>
                 <h3>INSTAGRAM</h3>
 
                 <div className='INSTAGRAM'>
@@ -74,7 +92,7 @@ export default function Footer() {
 
             </div>
 
-            <div className='footerText'>
+            <div className={scrolled ? "footerText scrolledFooter " : "footerText"}>
                 <h3>
                     BOLETIN INFORMATIVO</h3>
                 <p>Muy, muy lejos, detrás de la palabra montañas, lejos de los países.</p>
