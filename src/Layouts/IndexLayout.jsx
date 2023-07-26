@@ -5,12 +5,14 @@ import Developer from '../Components/Developer/Developer'
 import Hero from '../Components/Hero/Hero'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Main from '../Components/Main/Main'
+import BgTile from '../Components/BgTile/BgTile'
 export default function IndexLayout() {
     return (
         <div>
             <Header />
             <Hero />
             <Main />
+            <BgTile />
             <Footer />
             <Developer />
             <ButonScroll />
