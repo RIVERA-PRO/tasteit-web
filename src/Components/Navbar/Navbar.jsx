@@ -57,8 +57,6 @@ export default function Navbar() {
                         <Anchor to={`/`} >Conacto</Anchor>
                     </div>
 
-
-
                 </div>
 
 
