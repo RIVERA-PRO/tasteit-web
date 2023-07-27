@@ -9,6 +9,7 @@ import BgTile from '../Components/BgTile/BgTile'
 import Menu from '../Components/Menu/Menu'
 import Testimonios from '../Components/Testimonios/Testimonios'
 import Chefs from '../Components/Chefs/Chefs'
+import Ingredientes from '../Components/Ingredientes/Ingredientes'
 export default function IndexLayout() {
     return (
         <div>
@@ -19,6 +20,7 @@ export default function IndexLayout() {
             <Menu />
             <Testimonios />
             <Chefs />
+            <Ingredientes />
             <Footer />
             <Developer />
             <ButonScroll />
