@@ -42,7 +42,7 @@ body{
 
 
 
-.heroText,.mainText ,.formReserva,.bgText,.cardMenu,.cardsChefs,.footerText,.ingredientesContain{
+.heroText,.mainText ,.formReserva,.bgText,.cardMenu,.cardsChefs,.footerText,.ingredientesContain,.BlogCARD{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;

@@ -44,6 +44,9 @@
     font-size: 27px;
     font-weight: 600;
   }
+  .formReserva option{
+    background-color: var(--color1);
+  }
 
   @media (max-width: 1024px){
     .formReserva {

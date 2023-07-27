@@ -14,7 +14,7 @@ export default function Footer() {
     // Cambio de color en navbar al hacer scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 4200) {
+        if (offset > 4600) {
             setScrolled(true);
         } else {
             setScrolled(false);
